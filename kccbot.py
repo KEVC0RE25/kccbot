@@ -47,19 +47,6 @@ botversion = "V.0.1-TestingPhase"
 
 ############################################################################################
 '''
-READ THIS IF YOU ARE RECOPYING THE BETA BOT CODE TO THIS
-You should do this once in a while
-    1. Replace all the beta stuff, like (do opposite for main→beta, you can use CTRL+H or whatever you use to replace):
-        sc → kc
-        betabotkccData1.json → kccData1.json
-        928762834119176272 → 925243510519636008
-        {Bot token} → os.getenv('TOKEN') (OR ITS OWN BOT TOKEN)
-    2. ALWAYS MAKE A COPY OF THE CURRENT CODE (just in case) AND SAVE IT
-    3. Remove beta messages (in cd, update list for more...) (or add if your doing main→beta)
-    4. Remove limited features (exchange to not-in-code currencies, etc) (or add if your doing main→beta)
-'''
-############################################################################################
-'''
 READ THIS WHEN YOUR ADDING A NEW COMMAND:
 Here are the rules when adding a command:
 1. If the command involues in currency, make the the bot also gets/loses KCC
@@ -136,7 +123,7 @@ client = commands.Bot(command_prefix=[f'{mainbotprefixSpace}', 'KCC ', 'Kcc ', '
 #         with open("kccData1.json","w") as f:
 #             json.dump(users,f)
 #open .env file and get %privatelol% in TOKEN=%privatelol%
-TOKEN = 'OTI5NTk1Mjk0NTgzMjQyODIy.YdpnFQ.Kqhja1tGFLiN7vZloLpy2G-kAy8'
+TOKEN = 'Your Bot Token (looks something like Osa72.asd1)'
 
 def remove_ping_letters(input1):
     input1 = input1.replace("<","")
